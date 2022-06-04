@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+
+    --primary-text-color: #181820;
+    --secondary-text-color: #5c5c62;
+    --durability-text-color: #6a737d9c;
+    --icon-color: #6a737d;
+    --border-color: #ff9a0045;
+    --text-decoration-color: #ff9a00;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 30px;
+    max-width: 900px;
+}
+
+.fh {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.resume {
+    margin: 50px auto;
+    border: 1px solid #f5f5f5;
+    box-shadow: 1px 1px 7px 7px #f5f5f5;
+    padding: 30px 0;
+    max-width: 900px;
+}
+
+.resume__block {
+    border-bottom: 3px solid var(--border-color);
+    padding-bottom: 30px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 576px) {
+
+    .main-info,
+    .contact_info_container {
+        flex-direction: column;
+    }
+
+    .contact_info_container {
+        align-items: center;
+    }
+
+    .contact-info__block:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .experiences {
+        margin-right: 0;
+    }
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-info__avatar {
+    border-radius: 30%;
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border: 3px solid;
+    border-color: var(--text-decoration-color);
+}
+
+.contact-info__block {
+    margin: 15px;
+    font-size: large;
+}
+
+.contact-info_data {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px 0px 0px;
+}
+
+.intro__text {
+    margin: 5px;
+}
+
+.intro {
+    display: flex;
+    justify-content: start;
+}
+
+.soft-skills {
+    padding: 0px 20px;
+}
+
+.block-title {
+    font-size: 18px;
+}
+
+.table-td__right-indent {
+    padding: 15px 10px 5px 30px
+}
+
+.additional-info {
+    display: flex;
+}
+
+.additional-info__title {
+    padding: 0px 5px;
+    font-size: 18px;
+}
+
+.additional-info__data {
+    padding: 0px 10px;
+    font-size: 16px;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: row;
+}
+
+.timline-block {
+    padding: 5px 30px 10px 30px;
+}
