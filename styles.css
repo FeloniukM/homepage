@@ -92,3 +92,47 @@ body {
     flex-direction: column;
     padding: 30px 0px 0px 0px;
 }
+
+.intro__text {
+    margin: 5px;
+}
+
+.intro {
+    display: flex;
+    justify-content: start;
+}
+
+.soft-skills {
+    padding: 0px 20px;
+}
+
+.block-title {
+    font-size: 18px;
+}
+
+.table-td__right-indent {
+    padding: 15px 10px 5px 30px
+}
+
+.additional-info {
+    display: flex;
+}
+
+.additional-info__title {
+    padding: 0px 5px;
+    font-size: 18px;
+}
+
+.additional-info__data {
+    padding: 0px 10px;
+    font-size: 16px;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: row;
+}
+
+.timline-block {
+    padding: 5px 30px 10px 30px;
+}
